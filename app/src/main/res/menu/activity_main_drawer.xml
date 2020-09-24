@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+     <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Add Sales Order"
+            android:icon="@drawable/add_sales"
+            />
+        <item
+            android:id="@+id/salesOrderList"
+            android:title="Sales Order List"
+            android:icon="@drawable/order_list"
+            />
+        <item
+            android:id="@+id/addCsOrder"
+            android:title="Add CS Order"
+            android:icon="@drawable/add_sales"
+            />
+        <item
+            android:id="@+id/CsOrderList"
+            android:title="CS Order List"
+            android:icon="@drawable/order_list"
+            />
+        <item
+            android:id="@+id/ssurishaStock"
+            android:title="Ssurisha Stock"
+            android:icon="@drawable/price_list"
+            />
+        <item
+            android:id="@+id/CsStock"
+            android:title="CS Stock"
+            android:icon="@drawable/price_list"
+            />
+        <item
+            android:id="@+id/ssurishaPriceList"
+            android:title="Ssurisha Price List"
+            android:icon="@drawable/price_list"
+            />
+        <item
+            android:id="@+id/ssurishaCalc"
+            android:title="Ssurisha Calculator"
+            android:icon="@drawable/doller"
+            />
+        <item
+            android:id="@+id/contact"
+            android:title="Contact"
+            android:icon="@drawable/contact"
+            />
+        <item
+            android:id="@+id/logOut"
+            android:title="Logout"
+            android:icon="@drawable/logout"
+            />
+
+    </group>
+</menu>
